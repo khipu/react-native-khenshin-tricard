@@ -23,7 +23,7 @@ Run pod install
 
 ```
 include ':react-native-khenshin-tricard'
-project(':react-native-khenshin-tricard').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-khenshin/android')
+project(':react-native-khenshin-tricard').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-khenshin-tricard/android')
 ```
 
 ### Add the following lines inside the dependencies block in `android/app/build.gradle`:
