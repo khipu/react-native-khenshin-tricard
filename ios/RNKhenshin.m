@@ -29,6 +29,7 @@
       builder.navigationBarTextTint = [UIColor blackColor];
       builder.barTintColor = [welf barTintColor];
       builder.processHeader = [[[NSBundle mainBundle] loadNibNamed:@"CustomPaymentProcessHeader" owner:self options:nil] objectAtIndex:0];
+      builder.skipExitPage = YES;
     }];
   } @catch (NSException *exception) {
     NSLog(@"Khenshin failed to init: %@", [exception reason]);

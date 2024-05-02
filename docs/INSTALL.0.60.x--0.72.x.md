@@ -22,15 +22,15 @@ Run pod install
 ### Append the following lines to `android/settings.gradle`:
 
 ```
-include ':react-native-khenshin'
-project(':react-native-khenshin').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-khenshin/android')
+include ':react-native-khenshin-tricard'
+project(':react-native-khenshin-tricard').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-khenshin/android')
 ```
 
 ### Add the following lines inside the dependencies block in `android/app/build.gradle`:
 
 ```
 implementation 'com.browser2app:khenshin:+'
-implementation project(':react-native-khenshin')
+implementation project(':react-native-khenshin-tricard')
 ```
 
 ### Add the following lines to tour `android/build.gradle`:
@@ -77,7 +77,7 @@ protected List<ReactPackage> getPackages() {
 // react-native.config.js
 module.exports = {
   dependencies: {
-    'react-native-khenshin': {
+    'react-native-khenshin-tricard': {
       platforms: {
         android: null, // disable Android platform, other platforms will still autolink if provided
       },

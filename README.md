@@ -1,8 +1,8 @@
-# react-native-khenshin
+# react-native-khenshin-tricard
 
 ## Add the library to your project
 
-    yarn add https://github.com/khipu/react-native-khenshin
+    yarn add https://github.com/khipu/react-native-khenshin-tricard
 
 ## Install and configure
 
@@ -13,7 +13,7 @@
 ```typescript
 import React from 'react';
 import {SafeAreaView, ScrollView, Button} from 'react-native';
-import Khipu from 'react-native-khenshin';
+import Khipu from 'react-native-khenshin-tricard';
 
 function App(this: any): JSX.Element {
     const onStartPayment = () => {

@@ -28,7 +28,7 @@ public class RNKhenshinPackage implements ReactPackage {
         builder.setClearCookiesBeforeStart(true);
         builder.setDecimalSeparator('.');
         builder.setGroupingSeparator(',');
-        builder.setSkipExitPage(false);
+        builder.setSkipExitPage(true);
         builder.setApplication(this.app);
         builder.setDebug(false);
         builder.setFontResourceId(R.font.nunitosans);
